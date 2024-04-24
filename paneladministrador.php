@@ -63,7 +63,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
             </ul>
             
             <ul class="logout-mode">
-                <li><a href="#">
+                <li><a href="cerrarsesion.php">
                     <i class="uil uil-signout"></i>
                     <span class="link-name">Cerrar sesión</span>
                 </a></li>
