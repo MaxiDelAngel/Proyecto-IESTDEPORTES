@@ -30,7 +30,3 @@ sidebarToggle.addEventListener("click", () => {
         localStorage.setItem("status", "open");
     }
 })
-
-function saludar() {
-    console.log ("Hola")
-}
