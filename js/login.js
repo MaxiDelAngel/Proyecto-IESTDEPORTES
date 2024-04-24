@@ -58,3 +58,6 @@ async function login(usuario,pass) {
     }
        
 }
+function saludar() {
+    console.log ("Hola")
+}
