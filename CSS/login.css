@@ -1,0 +1,136 @@
+:root{
+    --primario: #FF8300;
+    --secundario: #0A1919;
+    --auxiliar: #fff;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Saira', sans-serif;
+}
+
+body{
+    font-size: 16px; /* 1red = 10px */
+    margin: 0;
+}
+
+a{
+    font-family: 'Saira', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: var(--primario);
+    padding: 2.5rem;
+    font-style: bold;
+    font-family: 'Saira', sans-serif;
+    
+    .nav_contenido{
+        display: flex;
+        justify-content: space-between;
+        .nav_izquierda{
+            font-style: bold;
+            font-size: 4rem;
+            color: var(--auxiliar);
+            span{
+                color: var(--auxiliar);
+            }
+        } 
+    }
+}
+
+.contenedor{
+    width: 90%;
+    font-family: 'Saira', sans-serif;
+    margin: 0 auto;
+ }
+
+.contenedor_body {
+    width: 50rem;
+    font-family: 'Saira', sans-serif;
+    margin: 2.5rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0rem 0rem 4rem 0rem rgba(0,0,0,0.1);
+ }
+
+
+.contenedor_body p {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+    color: var(--secundario);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    border: none;
+}
+
+.contenedor_body label {
+    padding: 0.5rem;
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Saira', sans-serif;
+}
+
+.contenedor_body input[type="text"],
+.contenedor_body input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #ccc;
+    box-sizing: border-box;
+}
+
+.contenedor_body button[type="submit"] {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--primario);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    transition: transform 250ms ease-in-out;
+}
+
+.contenedor_body button[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: var(--auxiliar);
+    color: var(--primario);
+    border: 0.1rem solid var(--primario);
+}
+
+.contenedor_body button[type="submit"]:focus {
+    outline: none;
+}
+
+.contenedor_body button[type="submit"]:active {
+    background-color: var(--secundario);
+}
+
+.contenedor_body img{
+    max-width: 20rem; /* Ajusta el ancho máximo de la imagen para que se adapte al contenedor */
+    height: auto; /* Para mantener la proporción de la imagen */
+    display: block; /* Esto asegura que el margen horizontal auto funcione */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+    padding: 0.5rem; /* Añade relleno según sea necesario */
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #606770;
+    margin: 0 2rem;
+    padding: 0;
+}
